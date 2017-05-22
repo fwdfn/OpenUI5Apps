@@ -1,0 +1,21 @@
+{
+  "threshold":[
+    {"thresholdName":"1","person":[
+    	{"name":"a","age":12,"task":[{"taskName":"task1","custom":"detail"},{"taskName":"task2","custom":"detailDetail"},{"taskName":"task3","custom":"detail2"}]},
+    	{"name":"b","age":13,"task":[{"taskName":"task1","custom":"detail"},{"taskName":"task2","custom":"detailDetail"},{"taskName":"task3","custom":"detail2"}]},
+    	{"name":"c","age":14,"task":[{"taskName":"task1","custom":"detail"},{"taskName":"task2","custom":"detailDetail"},{"taskName":"task3","custom":"detail2"}]}
+    ]},
+   {"thresholdName":"2","person":[
+    	{"name":"d","age":12,"task":[{"taskName":"task1","custom":"detail"},{"taskName":"task2","custom":"detailDetail"},{"taskName":"task3","custom":"detail2"}]},
+    	{"name":"e","age":13,"task":[{"taskName":"task1","custom":"detail"},{"taskName":"task2","custom":"detailDetail"},{"taskName":"task3","custom":"detail2"}]},
+    	{"name":"f","age":14,"task":[{"taskName":"task1","custom":"detail"},{"taskName":"task2","custom":"detailDetail"},{"taskName":"task3","custom":"detail2"}]}
+    ]},
+    {"thresholdName":"3","person":[
+    	{"name":"g","age":12,"task":[{"taskName":"task1","custom":"detail"},{"taskName":"task2","custom":"detailDetail"},{"taskName":"task3","custom":"detail2"}]},
+    	{"name":"h","age":13,"task":[{"taskName":"task1","custom":"detail"},{"taskName":"task2","custom":"detailDetail"},{"taskName":"task3","custom":"detail2"}]},
+    	{"name":"i","age":14,"task":[{"taskName":"task1","custom":"detail"},{"taskName":"task2","custom":"detailDetail"},{"taskName":"task3","custom":"detail2"}]}
+    ]}         
+  ]
+}
+
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <script id="sap-ui-bootstrap"\
+			type="text/javascript"
+			src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-theme="sap_belize"
+			data-sap-ui-xx-bindingSyntax="complex"
+			data-sap-ui-resourceroots='{"sap.ui.demo.wt":"./"}'>
+		</script>        
+		<script>
+			sap.ui.getCore().attachInit(function(){
+				sap.ui.xmlview({
+					viewName:"sap.ui.demo.wt.view.Sec"
+				}).placeAt("content")
+			});
+      </script>
+	</head>
+	<body class="sapUiBody" id="content" role="application">
+	</body>
+</html>

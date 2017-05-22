@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+		<script id="sap-ui-bootstrap"
+				src="resources/sap-ui-core.js"
+				data-sap-ui-libs="sap.m"
+				data-sap-ui-theme="sap_belize"
+				data-sap-ui-bindingSyntax="complex"
+				data-sap-ui-resourceroots='{"sap.ui.demo.wt":"./"}'>		
+		</script>
+		<script>
+				sap.ui.getCore().attachInit(function(){	 					
+					sap.ui.xmlview({
+						viewName:"sap.ui.demo.wt.view.index"
+					}).placeAt("content")
+				});
+		</script>
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>
